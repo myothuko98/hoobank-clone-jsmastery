@@ -38,7 +38,7 @@ const Hero = () => {
           annual fees.
         </p>
       </div>
-      <div>
+      <div className={`flex flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img
           src={robot}
           alt="billing"

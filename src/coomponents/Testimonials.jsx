@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { feedback } from "../constants";
+import styles from "../style";
+import FeedbackCard from "./FeedbackCard";
 
 const Testimonials = () => {
-  return (
-    <div>Testimonials</div>
-  )
-}
+  return <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
+    <div />
+    <div className="w-full flex justify-between items-center md:flex-row flex-col">
 
-export default Testimonials
+    </div>
+  </section>;
+};
+
+export default Testimonials;
